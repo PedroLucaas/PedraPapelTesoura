@@ -35,7 +35,7 @@ function playGame() {
       return Math.floor(Math.random() * 3 + 1);
     }
      escolhaMaquina = getRandom(max);
-    console.log(escolhaMaquina);
+
     
 
     switch (escolhaJogador)

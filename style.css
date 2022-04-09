@@ -30,26 +30,24 @@ h1, h2
     text-align: center; 
 }
 
+
 div#pedra, div#papel, div#tesoura
 {
-  border-radius:100%;
   background-color: #fff;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 35px;  
+  width: 200px;
+  height: 200px;
+  border-radius:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
   }
 
 .escolhas
 {
-  width: 1000px;
   margin-top: 20px;
-  position: relative;
-  left: 0%;
-  transform: translate(26.5%);
   display: flex;
+  justify-content: center;
 
 }
 
@@ -69,3 +67,4 @@ div#pedra, div#papel, div#tesoura
   font-size: 30px;
   text-align: center;
 }
+
