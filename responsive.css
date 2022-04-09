@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Shadow', 'verdana';
+    color: #fff;
+
+}
+
+body
+{
+  background-color: #244a5a;
+}
+
+h1
+{
+  font-size: 60px;
+}
+
+h2
+{
+  font-size: 40px;
+}
+
+h1, h2
+{
+    text-align: center; 
+}
+
+image{
+  width: 80px;
+  height: 80px;
+}
+
+div#pedra, div#papel, div#tesoura
+{
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  }
+
+.escolhas
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.buttonPlay{
+  position: relative;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%);
+  margin: auto;
+  height: 35px;
+  width: 100px;
+  color: black;
+  font-size: 25px;
+}
+
+#resultado{
+  font-size: 30px;
+  text-align: center;
+}
